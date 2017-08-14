@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KBHook", "KBHook\KBHook.csproj", "{59A1F287-5CBC-4C48-9063-98AF12EE85E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMShell", "HMShell\HMShell.csproj", "{AB2FF8A9-CE28-49F3-8CBB-8A8845D115DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMKernel", "HMKernel\HMKernel.csproj", "{4A3686D2-D2BA-475B-872A-00A7D575B072}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59A1F287-5CBC-4C48-9063-98AF12EE85E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A1F287-5CBC-4C48-9063-98AF12EE85E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A1F287-5CBC-4C48-9063-98AF12EE85E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A1F287-5CBC-4C48-9063-98AF12EE85E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2FF8A9-CE28-49F3-8CBB-8A8845D115DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2FF8A9-CE28-49F3-8CBB-8A8845D115DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2FF8A9-CE28-49F3-8CBB-8A8845D115DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2FF8A9-CE28-49F3-8CBB-8A8845D115DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A3686D2-D2BA-475B-872A-00A7D575B072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A3686D2-D2BA-475B-872A-00A7D575B072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A3686D2-D2BA-475B-872A-00A7D575B072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A3686D2-D2BA-475B-872A-00A7D575B072}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
