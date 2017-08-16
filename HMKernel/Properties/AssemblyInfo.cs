@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // アセンブリに関する一般情報は以下の属性セットをとおして制御されます。
 // アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更してください。
-[assembly: AssemblyTitle("HMKernel")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("星守工具箱PInvoke核心库")]
+[assembly: AssemblyDescription("星守工具箱核心库")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("HMKernel")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("Yuki Takeya")]
+[assembly: AssemblyProduct("星守工具箱")]
+[assembly: AssemblyCopyright("Copyright © Yuki Takeya 1992~2017")]
+[assembly: AssemblyTrademark("星守工具箱")]
 [assembly: AssemblyCulture("")]
 
 // ComVisible を false に設定すると、このアセンブリ内の型は COM コンポーネントから

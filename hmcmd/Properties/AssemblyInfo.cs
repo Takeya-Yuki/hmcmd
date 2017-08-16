@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("星守键盘钩子模块")]
-[assembly: AssemblyDescription("一个键盘钩子")]
+[assembly: AssemblyTitle("星守PE小助手")]
+[assembly: AssemblyDescription("星守PE小助手主程序")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Yuki Takeya")]
-[assembly: AssemblyProduct("星守工具箱")]
+[assembly: AssemblyProduct("星守PE小助手")]
 [assembly: AssemblyCopyright("Copyright © Yuki Takeya 1992~2017")]
 [assembly: AssemblyTrademark("星守工具箱")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("59a1f287-5cbc-4c48-9063-98af12ee85e6")]
+[assembly: Guid("b4cf9676-bb0b-4f32-801f-a2b6297aa21d")]
 
 // 程序集的版本信息由下列四个值组成: 
 //
@@ -30,7 +30,7 @@ using System.Runtime.InteropServices;
 //      修订号
 //
 // 可以指定所有值，也可以使用以下所示的 "*" 预置版本号和修订号
-//通过使用 "*"，如下所示:
+// 方法是按如下所示使用“*”: :
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
