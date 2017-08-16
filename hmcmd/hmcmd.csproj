@@ -98,10 +98,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="etc\virt\" />
-    <Folder Include="opt\" />
-    <Folder Include="var\" />
+    <Content Include="etc\virt\DIR.txt" />
+    <Content Include="opt\DIR.txt" />
+    <Content Include="var\DIR.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
