@@ -1,6 +1,6 @@
 ﻿namespace hmcmd.lib.virt
 {
-    partial class libvert_frmMain
+    partial class libvirt_frmMain
     {
         /// <summary>
         /// Required designer variable.

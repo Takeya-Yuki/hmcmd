@@ -67,12 +67,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="lib\virt\libvert_entry.cs" />
-    <Compile Include="lib\virt\libvert_frmMain.cs">
+    <Compile Include="lib\virt\libvirt_entry.cs" />
+    <Compile Include="lib\virt\libvirt_frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="lib\virt\libvert_frmMain.Designer.cs">
-      <DependentUpon>libvert_frmMain.cs</DependentUpon>
+    <Compile Include="lib\virt\libvirt_frmMain.Designer.cs">
+      <DependentUpon>libvirt_frmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

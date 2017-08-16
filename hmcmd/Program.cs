@@ -84,7 +84,7 @@ namespace hmcmd
                 case "virt":
                 case "virtman":
                 case "virt-man":
-                    lib.virt.libvert_entry.Entry(args.ToArray());
+                    lib.virt.libvirt_entry.Entry(args.ToArray());
                     break;
                 default:
                     //TODO:这是模块指定出错的处理

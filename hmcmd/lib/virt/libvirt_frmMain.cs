@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace hmcmd.lib.virt
 {
-    public partial class libvert_frmMain : Form
+    public partial class libvirt_frmMain : Form
     {
-        public libvert_frmMain()
+        public libvirt_frmMain()
         {
             InitializeComponent();
         }
