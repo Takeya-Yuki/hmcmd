@@ -87,8 +87,7 @@ namespace hmcmd
                     lib.virt.libvirt_entry.Entry(args.ToArray());
                     break;
                 default:
-                    //TODO:这是模块指定出错的处理
-                    int i = 0;
+                    lib.none.none_entry.Entry(args.ToArray());
                     break;
             }
         }
