@@ -8,7 +8,7 @@ using System.Windows.Forms;
 namespace hmcmd.lib.virt
 {
     /// <summary>
-    /// libvert 模块入口点
+    /// libvirt 模块入口点
     /// </summary>
     public static class libvirt_entry
     {
