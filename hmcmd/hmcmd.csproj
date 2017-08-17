@@ -85,16 +85,36 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="etc\virt\arch\amd64\arch.conf" />
-    <None Include="etc\virt\arch\i386\arch.conf" />
-    <None Include="etc\virt\cpu\Broadwell\cpu.conf" />
-    <None Include="etc\virt\cpu\Haswell\cpu.conf" />
-    <None Include="etc\virt\cpu\IvyBridge\cpu.conf" />
-    <None Include="etc\virt\cpu\qemu32\cpu.conf" />
-    <None Include="etc\virt\cpu\qemu64\cpu.conf" />
-    <None Include="etc\virt\cpu\SandyBridge\cpu.conf" />
-    <None Include="etc\virt\mach\pc\mach.conf" />
-    <None Include="etc\virt\mach\q35\mach.conf" />
+    <None Include="etc\virt\arch\amd64\arch.conf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="etc\virt\arch\i386\arch.conf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="etc\virt\cpu\Broadwell\cpu.conf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="etc\virt\cpu\Haswell\cpu.conf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="etc\virt\cpu\IvyBridge\cpu.conf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="etc\virt\cpu\qemu32\cpu.conf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="etc\virt\cpu\qemu64\cpu.conf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="etc\virt\cpu\SandyBridge\cpu.conf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="etc\virt\mach\pc\mach.conf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="etc\virt\mach\q35\mach.conf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -110,8 +130,12 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="opt\DIR.txt" />
-    <Content Include="var\DIR.txt" />
+    <Content Include="opt\DIR.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="var\DIR.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
