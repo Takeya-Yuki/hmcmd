@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // libvirt_frmMain
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "libvert_frmMain";
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "libvirt_frmMain";
+            this.Text = "libvirt_frmMain";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
