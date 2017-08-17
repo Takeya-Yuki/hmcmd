@@ -85,6 +85,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="etc\virt\arch\amd64\arch.conf" />
+    <None Include="etc\virt\arch\i386\arch.conf" />
+    <None Include="etc\virt\cpu\Broadwell\cpu.conf" />
+    <None Include="etc\virt\cpu\Haswell\cpu.conf" />
+    <None Include="etc\virt\cpu\IvyBridge\cpu.conf" />
+    <None Include="etc\virt\cpu\qemu32\cpu.conf" />
+    <None Include="etc\virt\cpu\qemu64\cpu.conf" />
+    <None Include="etc\virt\cpu\SandyBridge\cpu.conf" />
+    <None Include="etc\virt\mach\pc\mach.conf" />
+    <None Include="etc\virt\mach\q35\mach.conf" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -100,7 +110,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="etc\virt\DIR.txt" />
     <Content Include="opt\DIR.txt" />
     <Content Include="var\DIR.txt" />
   </ItemGroup>
