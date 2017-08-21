@@ -376,9 +376,6 @@
   <data name="eraser_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\eraser_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Exclamation" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\Exclamation.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="exit_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\exit_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -658,14 +655,8 @@
   <data name="ide_expand_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\ide_expand_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iexplore" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\iexplore.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="import_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\import_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\info.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="interface_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\interface_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -789,9 +780,6 @@
   </data>
   <data name="name_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\name_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="New" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\New.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="next_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\next_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1336,9 +1324,6 @@
   <data name="pin_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\pin_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="poppad" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\poppad.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="previous_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\previous_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1387,17 +1372,11 @@
   <data name="register_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\register_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Remove" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\Remove.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="remove_host_iface_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\remove_host_iface_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="remove_host_iface_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\remove_host_iface_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Repair" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\Repair.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="reset_warnings_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\reset_warnings_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1711,12 +1690,6 @@
   <data name="status_error_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\status_error_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tmfavicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\tmfavicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\Up.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="usb_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\usb_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1819,9 +1792,6 @@
   <data name="virtualbox_64px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtualbox-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="virtualbox_hdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\virtualbox-hdd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="virtualbox_hdd_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtualbox-hdd-32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1831,17 +1801,11 @@
   <data name="virtualbox_hdd_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtualbox-hdd-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="virtualbox_ova" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\virtualbox-ova.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="virtualbox_ova_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtualbox-ova-48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="virtualbox_ova_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtualbox-ova-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="virtualbox_ovf" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\virtualbox-ovf.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="virtualbox_ovf_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtualbox-ovf-32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1852,9 +1816,6 @@
   <data name="virtualbox_ovf_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtualbox-ovf-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="virtualbox_vbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\virtualbox-vbox.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="virtualbox_vbox_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtualbox-vbox-32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1863,9 +1824,6 @@
   </data>
   <data name="virtualbox_vbox_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtualbox-vbox-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="virtualbox_vbox_extpack" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\virtualbox-vbox-extpack.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="virtualbox_vbox_extpack_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtualbox-vbox-extpack-32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1876,9 +1834,6 @@
   <data name="virtualbox_vbox_extpack_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtualbox-vbox-extpack-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="virtualbox_vdi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\virtualbox-vdi.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="virtualbox_vdi_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtualbox-vdi-32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1887,9 +1842,6 @@
   </data>
   <data name="virtualbox_vdi_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtualbox-vdi-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="virtualbox_vhd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\virtualbox-vhd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="virtualbox_vhd_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtualbox-vhd-32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1900,9 +1852,6 @@
   <data name="virtualbox_vhd_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtualbox-vhd-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="virtualbox_vmdk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\virtualbox-vmdk.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="virtualbox_vmdk_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtualbox-vmdk-32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1911,9 +1860,6 @@
   </data>
   <data name="virtualbox_vmdk_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtualbox-vmdk-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="VirtualBox_win" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\Resources\VirtualBox_win.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="virtual_screen_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\virtual_screen_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -2124,5 +2070,56 @@
   </data>
   <data name="web_camera_unavailable_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\Resources\web_camera_unavailable_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exclamation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\Exclamation.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iexplore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\iexplore.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\info.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="New" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\New.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="poppad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\poppad.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Remove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\Remove.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Repair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\Repair.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tmfavicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\tmfavicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\Up.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_hdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-hdd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_ova" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-ova.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_ovf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-ovf.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vbox.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vbox_extpack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vbox-extpack.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vdi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vdi.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vhd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vhd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vmdk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vmdk.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

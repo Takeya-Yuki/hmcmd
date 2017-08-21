@@ -1,0 +1,3 @@
+﻿FDD		2
+HDD		4
+CDROM	1
