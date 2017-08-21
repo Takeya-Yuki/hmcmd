@@ -1,0 +1,2128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="add_host_iface_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\add_host_iface_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_host_iface_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\add_host_iface_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adjust_win_size_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\adjust_win_size_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adjust_win_size_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\adjust_win_size_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_down_10px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\arrow_down_10px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_left_10px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\arrow_left_10px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_right_10px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\arrow_right_10px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_up_10px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\arrow_up_10px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="attachment_add_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\attachment_add_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="attachment_add_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\attachment_add_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="attachment_remove_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\attachment_remove_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="attachment_remove_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\attachment_remove_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="auto_resize_off_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\auto_resize_off_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="auto_resize_on_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\auto_resize_on_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="auto_resize_on_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\auto_resize_on_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="auto_resize_on_on_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\auto_resize_on_on_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="auto_resize_on_on_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\auto_resize_on_on_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cancel_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_add_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_add_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_add_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_add_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_copy_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_copy_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_copy_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_copy_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_copy_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_copy_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_copy_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_copy_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_modify_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_modify_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_modify_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_modify_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_modify_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_modify_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_modify_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_modify_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_read_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_read_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_release_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_release_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_release_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_release_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_release_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_release_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_release_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_release_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_remove_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_remove_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_remove_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_remove_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_remove_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_remove_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_remove_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_remove_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_unmount_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_unmount_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_unmount_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_unmount_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_write_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cd_write_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chipset_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\chipset_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chipset_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\chipset_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chipset_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\chipset_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chipset_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\chipset_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chipset_warning_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\chipset_warning_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\close_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_popup_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\close_popup_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="connect_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\connect_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="controller_add_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\controller_add_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="controller_add_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\controller_add_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="controller_remove_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\controller_remove_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="controller_remove_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\controller_remove_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cpu_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\cpu_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="description_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\description_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disconnect_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\disconnect_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diskimage_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\diskimage_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diskimage_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\diskimage_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diskimage_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\diskimage_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="display_hardware_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\display_hardware_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="display_hardware_write_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\display_hardware_write_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="display_software_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\display_software_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drag_drop_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\drag_drop_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drag_drop_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\drag_drop_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edataglobal_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edataglobal_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edataglobal_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edataglobal_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edataman_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edataman_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edataman_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edataman_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edata_add_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edata_add_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edata_add_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edata_add_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edata_add_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edata_add_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edata_add_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edata_add_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edata_load_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edata_load_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edata_load_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edata_load_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edata_load_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edata_load_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edata_load_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edata_load_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edata_remove_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edata_remove_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edata_remove_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edata_remove_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edata_remove_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edata_remove_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edata_remove_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edata_remove_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edata_save_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edata_save_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edata_save_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edata_save_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edata_save_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edata_save_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edata_save_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\edata_save_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eraser_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\eraser_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exclamation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\Exclamation.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\exit_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expanding_collapsing_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\expanding_collapsing_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\export_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="extension_pack_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\extension_pack_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="extension_pack_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\extension_pack_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="extension_pack_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\extension_pack_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="extension_pack_install_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\extension_pack_install_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="extension_pack_install_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\extension_pack_install_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="extension_pack_uninstall_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\extension_pack_uninstall_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="extension_pack_uninstall_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\extension_pack_uninstall_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="extension_pack_warning_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\extension_pack_warning_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_add_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_add_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_add_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_add_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_copy_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_copy_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_copy_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_copy_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_copy_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_copy_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_copy_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_copy_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_modify_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_modify_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_modify_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_modify_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_modify_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_modify_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_modify_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_modify_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_read_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_read_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_release_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_release_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_release_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_release_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_release_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_release_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_release_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_release_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_remove_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_remove_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_remove_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_remove_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_remove_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_remove_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_remove_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_remove_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_unmount_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_unmount_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_unmount_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_unmount_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd_write_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fd_write_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="floppy_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\floppy_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="floppy_add_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\floppy_add_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="floppy_add_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\floppy_add_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="floppy_collapse_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\floppy_collapse_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="floppy_expand_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\floppy_expand_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fullscreen_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fullscreen_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fullscreen_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fullscreen_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fullscreen_on_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fullscreen_on_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fullscreen_on_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\fullscreen_on_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="global_settings_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\global_settings_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="group_abstract_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\group_abstract_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guesttools_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\guesttools_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guesttools_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\guesttools_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_add_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_add_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_add_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_add_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_copy_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_copy_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_copy_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_copy_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_copy_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_copy_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_copy_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_copy_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_modify_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_modify_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_modify_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_modify_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_modify_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_modify_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_modify_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_modify_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_new_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_new_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_new_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_new_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_read_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_read_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_release_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_release_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_release_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_release_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_release_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_release_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_release_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_release_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_remove_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_remove_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_remove_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_remove_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_remove_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_remove_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_remove_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_remove_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_settings_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_settings_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_settings_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_settings_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_warning_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_warning_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_write_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hd_write_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\help_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_button_normal_mac_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\help_button_normal_mac_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_button_pressed_mac_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\help_button_pressed_mac_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hostkey_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hostkey_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hostkey_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hostkey_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hostkey_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hostkey_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hostkey_captured_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hostkey_captured_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hostkey_captured_pressed_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hostkey_captured_pressed_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hostkey_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hostkey_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hostkey_pressed_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hostkey_pressed_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hostkey_warning_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\hostkey_warning_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ide_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\ide_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ide_add_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\ide_add_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ide_add_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\ide_add_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ide_collapse_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\ide_collapse_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ide_expand_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\ide_expand_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iexplore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\iexplore.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="import_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\import_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\info.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="interface_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\interface_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="interface_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\interface_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="interface_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\interface_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="interface_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\interface_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="interface_warning_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\interface_warning_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\keyboard_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\keyboard_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\keyboard_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\keyboard_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_settings_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\keyboard_settings_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_settings_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\keyboard_settings_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list_movedown_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\list_movedown_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list_movedown_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\list_movedown_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list_moveup_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\list_moveup_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list_moveup_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\list_moveup_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\machine_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\machine_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\machine_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\machine_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine_abstract_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\machine_abstract_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\machine_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine_warning_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\machine_warning_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="meditation_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\meditation_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="meditation_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\meditation_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menubar_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\menubar_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menubar_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\menubar_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menubar_on_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\menubar_on_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menubar_on_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\menubar_on_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menubar_settings_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\menubar_settings_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menubar_settings_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\menubar_settings_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimize_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\minimize_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\mouse_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_can_seamless_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\mouse_can_seamless_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_can_seamless_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\mouse_can_seamless_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_can_seamless_on_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\mouse_can_seamless_on_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_can_seamless_on_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\mouse_can_seamless_on_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_can_seamless_uncaptured_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\mouse_can_seamless_uncaptured_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\mouse_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_seamless_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\mouse_seamless_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="movie_reel_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\movie_reel_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="name_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\name_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="New" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\New.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="next_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\next_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nw_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\nw_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nw_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\nw_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nw_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\nw_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nw_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\nw_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nw_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\nw_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nw_disconnected_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\nw_disconnected_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nw_error_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\nw_error_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nw_loading_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\nw_loading_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nw_read_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\nw_read_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nw_settings_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\nw_settings_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nw_settings_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\nw_settings_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nw_warning_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\nw_warning_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nw_write_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\nw_write_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ok_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\ok_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_archlinux" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_archlinux.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_archlinux_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_archlinux_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_archlinux_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_archlinux_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_archlinux_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_archlinux_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_debian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_debian.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_debian_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_debian_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_debian_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_debian_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_debian_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_debian_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_dos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_dos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_dos_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_dos_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_fedora" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_fedora.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_fedora_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_fedora_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_fedora_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_fedora_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_fedora_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_fedora_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_freebsd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_freebsd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_freebsd_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_freebsd_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_freebsd_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_freebsd_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_freebsd_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_freebsd_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_freedos_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_freedos_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_gentoo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_gentoo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_gentoo_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_gentoo_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_gentoo_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_gentoo_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_gentoo_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_gentoo_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_jrockitve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_jrockitve.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_jrockitve_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_jrockitve_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_l4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_l4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_l4_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_l4_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_linux" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_linux.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_linux22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_linux22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_linux22_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_linux22_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_linux24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_linux24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_linux24_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_linux24_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_linux24_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_linux24_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_linux24_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_linux24_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_linux26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_linux26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_linux26_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_linux26_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_linux26_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_linux26_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_linux26_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_linux26_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_linux_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_linux_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_linux_other" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_linux_other.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_linux_other_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_linux_other_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_macosx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_macosx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_macosx_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_macosx_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_macosx_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_macosx_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_macosx_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_macosx_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_mandriva" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_mandriva.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_mandriva_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_mandriva_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_mandriva_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_mandriva_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_mandriva_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_mandriva_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_mint_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_mint_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_mint_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_mint_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_netbsd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_netbsd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_netbsd_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_netbsd_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_netbsd_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_netbsd_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_netbsd_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_netbsd_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_netware" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_netware.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_netware_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_netware_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_openbsd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_openbsd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_openbsd_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_openbsd_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_openbsd_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_openbsd_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_openbsd_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_openbsd_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_opensuse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_opensuse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_opensuse_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_opensuse_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_opensuse_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_opensuse_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_opensuse_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_opensuse_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_oracle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_oracle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_oraclesolaris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_oraclesolaris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_oraclesolaris_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_oraclesolaris_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_oraclesolaris_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_oraclesolaris_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_oraclesolaris_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_oraclesolaris_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_oracle_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_oracle_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_oracle_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_oracle_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_oracle_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_oracle_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_os2ecs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_os2ecs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_os2ecs_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_os2ecs_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_os2warp3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_os2warp3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_os2warp3_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_os2warp3_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_os2warp4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_os2warp4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_os2warp45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_os2warp45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_os2warp45_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_os2warp45_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_os2warp4_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_os2warp4_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_os2_other" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_os2_other.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_os2_other_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_os2_other_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_other" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_other.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_other_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_other_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_other_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_other_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_other_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_other_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_qnx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_qnx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_qnx_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_qnx_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_redhat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_redhat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_redhat_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_redhat_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_redhat_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_redhat_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_redhat_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_redhat_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_solaris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_solaris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_solaris_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_solaris_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_solaris_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_solaris_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_solaris_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_solaris_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_turbolinux" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_turbolinux.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_turbolinux_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_turbolinux_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_turbolinux_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_turbolinux_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_turbolinux_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_turbolinux_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_type_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_type_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_ubuntu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_ubuntu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_ubuntu_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_ubuntu_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_ubuntu_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_ubuntu_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_ubuntu_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_ubuntu_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win10_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win10_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win10_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win10_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win10_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win10_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win2k12_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win2k12_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win2k12_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win2k12_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win2k16_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win2k16_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win2k16_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win2k16_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win2k3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win2k3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win2k3_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win2k3_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win2k3_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win2k3_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win2k3_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win2k3_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win2k8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win2k8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win2k8_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win2k8_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win2k8_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win2k8_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win2k8_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win2k8_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win2k_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win2k_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win31_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win31_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win7_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win7_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win7_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win7_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win7_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win7_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win81.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win81_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win81_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win81_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win81_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win81_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win81_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win8_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win8_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win8_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win8_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win8_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win8_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win95.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win95_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win95_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win98" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win98.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win98_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win98_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_winme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_winme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_winme_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_winme_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_winnt4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_winnt4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_winnt4_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_winnt4_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_winvista" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_winvista.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_winvista_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_winvista_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_winvista_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_winvista_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_winvista_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_winvista_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_winxp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_winxp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_winxp_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_winxp_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_winxp_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_winxp_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_winxp_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_winxp_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win_other" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win_other.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_win_other_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_win_other_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_xandros" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_xandros.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_xandros_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_xandros_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_xandros_64_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_xandros_64_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_xandros_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\os_xandros_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parallel_port_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\parallel_port_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parallel_port_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\parallel_port_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parallel_port_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\parallel_port_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parallel_port_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\parallel_port_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parallel_port_warning_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\parallel_port_warning_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pin_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\pin_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="poppad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\poppad.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="previous_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\previous_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="proxy_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\proxy_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="proxy_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\proxy_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="proxy_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\proxy_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="proxy_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\proxy_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="proxy_warning_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\proxy_warning_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ram_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\ram_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\refresh_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\refresh_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\refresh_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\refresh_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\refresh_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\refresh_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_disabled_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\refresh_disabled_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_warning_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\refresh_warning_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="register_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\register_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Remove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\Remove.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="remove_host_iface_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\remove_host_iface_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="remove_host_iface_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\remove_host_iface_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Repair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\Repair.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reset_warnings_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\reset_warnings_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="restore_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\restore_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sata_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sata_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sata_add_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sata_add_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sata_add_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sata_add_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sata_collapse_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sata_collapse_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sata_expand_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sata_expand_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scale_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\scale_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scale_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\scale_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scale_factor_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\scale_factor_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scale_factor_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\scale_factor_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scale_on_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\scale_on_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scale_on_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\scale_on_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="screenshot_take_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\screenshot_take_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="screenshot_take_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\screenshot_take_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scsi_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\scsi_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scsi_add_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\scsi_add_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scsi_add_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\scsi_add_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scsi_collapse_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\scsi_collapse_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scsi_expand_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\scsi_expand_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seamless_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\seamless_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seamless_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\seamless_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seamless_on_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\seamless_on_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seamless_on_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\seamless_on_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="select_file_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\select_file_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="select_file_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\select_file_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="serial_port_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\serial_port_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="serial_port_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\serial_port_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="serial_port_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\serial_port_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="serial_port_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\serial_port_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="serial_port_warning_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\serial_port_warning_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="session_info_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\session_info_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="session_info_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\session_info_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="session_info_details_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\session_info_details_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="session_info_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\session_info_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="session_info_runtime_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\session_info_runtime_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sf_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sf_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sf_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sf_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sf_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sf_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sf_add_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sf_add_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sf_add_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sf_add_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sf_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sf_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sf_edit_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sf_edit_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sf_edit_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sf_edit_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sf_read_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sf_read_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sf_remove_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sf_remove_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sf_remove_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sf_remove_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sf_settings_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sf_settings_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sf_settings_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sf_settings_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sf_warning_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sf_warning_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sf_write_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sf_write_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shared_clipboard_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\shared_clipboard_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shared_clipboard_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\shared_clipboard_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="site_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\site_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="site_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\site_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="site_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\site_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="site_bugtracker_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\site_bugtracker_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="site_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\site_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="site_forum_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\site_forum_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="site_oracle_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\site_oracle_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="site_warning_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\site_warning_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_delete_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_delete_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_delete_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_delete_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_delete_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_delete_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_delete_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_delete_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_offline_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_offline_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_online_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_online_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_restore_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_restore_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_restore_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_restore_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_restore_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_restore_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_restore_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_restore_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_show_details_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_show_details_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_show_details_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_show_details_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_show_details_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_show_details_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_show_details_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_show_details_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_take_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_take_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_take_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_take_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_take_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_take_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot_take_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\snapshot_take_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sort_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sort_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sort_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sort_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sound_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sound_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sound_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sound_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sound_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sound_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sound_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sound_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sound_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sound_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sound_warning_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\sound_warning_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="state_aborted_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\state_aborted_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="state_discarding_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\state_discarding_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="state_paused_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\state_paused_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="state_powered_off_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\state_powered_off_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="state_restoring_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\state_restoring_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="state_running_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\state_running_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="state_saved_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\state_saved_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="state_saving_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\state_saving_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="state_stuck_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\state_stuck_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statusbar_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\statusbar_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statusbar_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\statusbar_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statusbar_on_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\statusbar_on_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statusbar_on_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\statusbar_on_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statusbar_settings_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\statusbar_settings_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statusbar_settings_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\statusbar_settings_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="status_check_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\status_check_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="status_error_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\status_error_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tmfavicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\tmfavicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\Up.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_add_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_add_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_add_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_add_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_collapse_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_collapse_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_expand_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_expand_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_filter_edit_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_filter_edit_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_filter_edit_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_filter_edit_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_movedown_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_movedown_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_movedown_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_movedown_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_moveup_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_moveup_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_moveup_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_moveup_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_new_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_new_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_new_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_new_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_read_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_read_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_remove_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_remove_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_remove_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_remove_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_settings_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_settings_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_settings_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_settings_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_unavailable_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_unavailable_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_unavailable_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_unavailable_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_warning_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_warning_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usb_write_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\usb_write_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="video_capture_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\video_capture_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="video_capture_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\video_capture_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="video_capture_on_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\video_capture_on_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="video_capture_on_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\video_capture_on_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="video_capture_settings_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\video_capture_settings_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VirtualBox_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\VirtualBox_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VirtualBox_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\VirtualBox_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_64px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_hdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-hdd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_hdd_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-hdd-32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_hdd_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-hdd-48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_hdd_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-hdd-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_ova" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-ova.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_ova_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-ova-48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_ova_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-ova-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_ovf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-ovf.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_ovf_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-ovf-32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_ovf_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-ovf-48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_ovf_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-ovf-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vbox.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vbox_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vbox-32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vbox_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vbox-48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vbox_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vbox-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vbox_extpack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vbox-extpack.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vbox_extpack_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vbox-extpack-32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vbox_extpack_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vbox-extpack-48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vbox_extpack_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vbox-extpack-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vdi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vdi.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vdi_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vdi-32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vdi_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vdi-48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vdi_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vdi-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vhd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vhd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vhd_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vhd-32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vhd_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vhd-48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vhd_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vhd-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vmdk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vmdk.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vmdk_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vmdk-32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vmdk_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vmdk-48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox_vmdk_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtualbox-vmdk-64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VirtualBox_win" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\VirtualBox_win.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtual_screen_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtual_screen_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtual_screen_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\virtual_screen_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_add_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_add_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_clone_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_clone_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_clone_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_clone_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_clone_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_clone_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_clone_disabled_22px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_clone_disabled_22px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_create_shortcut_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_create_shortcut_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_create_shortcut_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_create_shortcut_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_delete_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_delete_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_delete_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_delete_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_delete_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_delete_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_delete_disabled_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_delete_disabled_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_discard_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_discard_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_discard_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_discard_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_discard_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_discard_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_discard_disabled_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_discard_disabled_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_group_create_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_group_create_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_group_create_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_group_create_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_group_name_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_group_name_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_group_name_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_group_name_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_group_remove_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_group_remove_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_group_remove_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_group_remove_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_new_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_new_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_new_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_new_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_new_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_new_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_open_filemanager_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_open_filemanager_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_open_filemanager_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_open_filemanager_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_pause_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_pause_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_pause_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_pause_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_pause_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_pause_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_pause_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_pause_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_pause_disabled_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_pause_disabled_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_pause_on_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_pause_on_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_pause_on_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_pause_on_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_poweroff_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_poweroff_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_poweroff_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_poweroff_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_reset_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_reset_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_reset_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_reset_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_save_state_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_save_state_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_save_state_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_save_state_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_settings_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_settings_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_settings_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_settings_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_settings_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_settings_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_settings_disabled_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_settings_disabled_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_show_logs_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_show_logs_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_show_logs_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_show_logs_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_show_logs_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_show_logs_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_show_logs_disabled_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_show_logs_disabled_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_shutdown_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_shutdown_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_shutdown_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_shutdown_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_start_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_start_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_start_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_start_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_start_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_start_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_start_disabled_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_start_disabled_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_start_headless_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_start_headless_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vm_start_separate_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vm_start_separate_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vrdp_24px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vrdp_24px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vrdp_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vrdp_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vrdp_32px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vrdp_32px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vrdp_disabled_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vrdp_disabled_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vrdp_on_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vrdp_on_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vrdp_on_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vrdp_on_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vrdp_warning_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vrdp_warning_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vtx_amdv_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vtx_amdv_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vtx_amdv_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\vtx_amdv_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="web_camera_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\web_camera_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="web_camera_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\web_camera_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="web_camera_unavailable_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\web_camera_unavailable_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="web_camera_unavailable_disabled_16px_hidpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\web_camera_unavailable_disabled_16px_hidpi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
